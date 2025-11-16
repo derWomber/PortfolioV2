@@ -1,0 +1,70 @@
+*{
+  font-family: URFAregular;
+}
+.bildung-header {
+      text-align: center;
+      color: white;
+      padding: 5rem 1rem 2rem;
+    }
+    .bildung-header h1 {
+      font-size: 3rem;
+      color: #8a2be2;
+      letter-spacing: 2px;
+    }
+    .bildung-header p {
+      color: #ccc;
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+    }
+
+    .bildung-container {
+      width: 85%;
+      max-width: 1100px;
+      margin: 0 auto 5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .bildung-section {
+      border-left: 3px solid #8a2be2;
+      padding-left: 1.5rem;
+      color: white;
+      background-color: rgba(255, 255, 255, 0.03);
+      border-radius: 10px;
+      padding: 1.5rem;
+      transition: 0.3s;
+    }
+
+    .bildung-section:hover {
+      background-color: rgba(138, 43, 226, 0.15);
+    }
+
+    .bildung-section h2 {
+      color: #8a2be2;
+      margin-bottom: 1rem;
+    }
+
+    .bildung-item {
+      margin-bottom: 1rem;
+    }
+
+    .bildung-item h3 {
+      font-size: 1.2rem;
+      color: white;
+    }
+
+    .bildung-item p {
+      color: #ccc;
+      font-size: 0.95rem;
+      margin-top: 0.3rem;
+    }
+
+    @media (max-width: 800px) {
+      .bildung-header h1 {
+        font-size: 2.2rem;
+      }
+      .bildung-container {
+        width: 90%;
+      }
+    }

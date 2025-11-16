@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projekte – Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="projekte.css" />
+  <script src="script.js"></script>
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+
+  <div id="content" style="display:none;">
+
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()" id="close">
+          <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+            viewBox="0 -960 960 960" width="24px" fill="#ffff">
+            <path d="m256-200-56-56 224-224-224-224 
+            56-56 224 224 224-224 56 56-224 224 
+            224 224-56 56-224-224-224 224Z"/></svg></a>
+        </li> 
+        <li onclick="hideSidebar()"><a href="bildung.html">Bildung</a></li>
+        <li onclick="hideSidebar()"><a href="projekte.html">Projekte</a></li>
+      </ul>
+
+      <ul>
+        <li><a href="index.html" class="white-text">JosephB</a></li>
+        <li class="hideOnMobile"><a href="bildung.html" class="white-text">Bildung</a></li>
+        <li class="hideOnMobile"><a href="projekte.html" class="white-text">Projekte</a></li>
+        <li class="hideOnDesktop" onclick="showSidebar()"><a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px"
+            viewBox="0 -960 960 960" width="24px" fill="#FFFFFF">
+            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+          </svg></a></li>
+      </ul>
+    </nav>
+
+    <section class="projekt-header">
+      <h1>Projekte</h1>
+      <p>Vier ausgewählte Projekte — klick auf „Mehr“ für Details</p>
+    </section>
+
+    <section class="projekt-grid">
+
+      <div class="projekt-card" style="background-image:url('pics/pg1.png');">
+        <a href="https://github.com/derWomber/Portfolio" target="_blank" class="mehr">Mehr →</a>
+      </div>
+
+      <div class="projekt-card" style="background-image:url('pics/pg2.png');">
+        <a href="https://github.com/derWomber/PortfolioV2" target="_blank" class="mehr">Mehr →</a>
+      </div>
+
+      <div class="projekt-card" style="background-image:url('pics/pg3.png');">
+        <a href="https://github.com/derWomber/BeddouchSols" target="_blank" class="mehr">Mehr →</a>
+      </div>
+
+      <div class="projekt-card" style="background-image:url('pics/pg4.png');">
+        <a href="https://github.com/derWomber/Volleys" target="_blank" class="mehr">Mehr →</a>
+      </div>
+
+    </section>
+
+    <footer style="text-align:center; color:white; padding:2rem 0;">
+      © 2025 JosephB – Portfolio
+    </footer>
+  </div>
+
+</body>
+</html>

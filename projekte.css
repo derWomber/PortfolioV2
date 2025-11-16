@@ -1,0 +1,74 @@
+.projekt-header {
+  text-align: center;
+  color: white;
+  padding: 5rem 1rem 2rem;
+}
+
+.projekt-header h1 {
+  font-size: 3rem;
+  color: #8a2be2;
+  letter-spacing: 2px;
+}
+
+.projekt-header p {
+  color: #ccc;
+  font-size: 1.1rem;
+  margin-top: 0.4rem;
+}
+
+.projekt-grid {
+  width: 85%;
+  max-width: 1100px;
+  margin: 0 auto 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.projekt-card {
+  position: relative;
+  display: block;
+  background-size: cover;
+  background-color: #111;
+  background-position: center;
+  aspect-ratio: 4 / 3;
+  border-left: 3px solid #8a2be2;
+  transition: 0.3s;
+
+  -webkit-mask-image: url("./pics/CCARD.svg");
+  -webkit-mask-size: cover;
+  -webkit-mask-repeat: no-repeat;
+  mask-image: url("./pics/CCARD.svg");
+  mask-size: cover;
+  mask-repeat: no-repeat;
+}
+
+
+.projekt-card:hover {
+  transform: translateY(-4px);
+}
+
+.mehr {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  color: #8a2be2;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.mehr:hover {
+  color: rgb(58, 58, 58);
+}
+
+/* RESPONSIVE */
+@media (max-width: 800px) {
+  .projekt-grid {
+    grid-template-columns: 1fr;
+  }
+  .projekt-header h1 {
+    font-size: 2.2rem;
+  }
+}
