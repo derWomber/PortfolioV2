@@ -21,7 +21,7 @@ const responses = [
             "beschreibe dich", "wer bist du genau", "mehr über dich",
             "wer bist du eigentlich", "kurze vorstellung", "kurz vorstellen"
         ],
-        answer: "Ich bin Youssef Beddouch. Ich lerne sehr schnell und gebe nie auf. Wenn ich etwas nicht weiß, sage ich ehrlich: Ich weiß es nicht. Aber ich verspreche, dass ich die Antwort finde – und wahrscheinlich schneller als andere. Ich habe praktische Erfahrung mit HTML, CSS, JavaScript, Python und kleinen Webprojekten. Ich studiere Literatur und Geisteswissenschaften an der Université Mohammed V in Rabat."
+        answer: "Ich bin Youssef Beddouch. Ich lerne sehr schnell und gebe nie auf. Wenn ich etwas nicht weiß, sage ich ehrlich: Ich weiß es nicht. Aber ich verspreche, dass ich die Antwort finde, und wahrscheinlich schneller als andere. Ich habe praktische Erfahrung mit HTML, CSS, JavaScript, Python und kleinen Webprojekten. Ich studiere Literatur und Geisteswissenschaften an der Université Mohammed V in Rabat."
     },
 
     // Personal Data
@@ -35,7 +35,7 @@ const responses = [
     },
     {
         keywords: ["email", "e-mail", "mail", "kontakt", "kontakt email"],
-        answer: "Meine E-Mail Adresse ist youssef.edu.2023@gmail.com."
+        answer: "Meine E-Mail Adresse ist youssef@beddouch.de"
     },
     {
         keywords: ["github", "git hub", "mein github", "github profil", "github account"],
@@ -164,7 +164,7 @@ const responses = [
 ];
 
 responses.push({
-    keywords: ["hahaha", "lol", "funny", "easter egg", "surprise", "hehe", "😂"],
+    keywords: ["hahaha", "lol", "funny", "easter egg", "surprise", "hehe", "😂", "hidden"],
     answer: "🎉 Überraschung! Du hast das geheime Easter Egg gefunden! 😎, Schreib mir auf Insta (@der_joseph.b) Lol"
 });
 
