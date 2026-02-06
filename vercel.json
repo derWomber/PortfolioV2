@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/projekte", "destination": "/projekte.html" },
+    { "source": "/bildung", "destination": "/bildung.html" }
+  ]
+}
